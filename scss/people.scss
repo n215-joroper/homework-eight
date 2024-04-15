@@ -13,14 +13,21 @@
     .people-holder{
         margin: 0 auto;
         width: 1000px;
+        h1{
+            color: white;
+            padding-top: 30px;
+
+        }
+
+        
 
         .r1{
             height: 200px;
             width: 100%;
-            background-color: red;
             justify-content: space-between;
             align-items: center;
             display: flex;
+            margin-top: 25px;
             .p1{
                 height: 200px;
                 width: 300px;
@@ -29,6 +36,58 @@
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
+                border-radius: 10px;
+                position: relative;
+                overflow: hidden;
+                box-shadow: 5px 5px 5px  rgba(167, 147, 33, 0.9);
+                display: block;
+                transition: transform .5s;
+
+             
+
+                &:hover {
+                    transform: scale(1.2);
+
+                    .overlay{
+                        height: 75%;
+                        
+                    }
+                }
+
+                .overlay {
+                    height: 0;
+                    width: 100%;
+                    position: absolute;
+                    background: linear-gradient(transparent, #390E65 45%);
+                    left: 0;
+                    bottom: 0;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0 50px;
+                    text-align: center;
+                    font-size: 14px;
+                    transition: height .5s;
+                    color: rgba(255, 255, 255, 0.637);
+
+                    .overlay h1{
+                        margin-bottom: 5px;
+                        margin-top: 80%;
+                        font-size: 25px;
+                        
+                        
+                    }
+
+                    .overlay p{
+                        margin-bottom: 5px;
+                        margin-top: 80%;
+                        font-size: 25px;
+                        
+                    }
+
+                }
+
+               
             }
             .p2{
                 height: 200px;
@@ -38,64 +97,472 @@
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
+                border-radius: 10px;
+                position: relative;
+                overflow: hidden;
+                box-shadow: 5px 5px 5px  rgba(167, 147, 33, 0.9);
+                display: block;
+                transition: transform .5s;
 
+                &:hover {
+                    transform: scale(1.2);
+
+                    .overlay{
+                        height: 75%;
+                        
+                    }
+                }
+
+                .overlay {
+                    height: 0;
+                    width: 100%;
+                    position: absolute;
+                    background: linear-gradient(transparent, #390E65 45%);
+                    left: 0;
+                    bottom: 0;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0 50px;
+                    text-align: center;
+                    font-size: 14px;
+                    transition: height .5s;
+                    color: rgba(255, 255, 255, 0.637);
+
+                    .overlay h1{
+                        margin-bottom: 5px;
+                        margin-top: 80%;
+                        font-size: 25px;
+                        
+                        
+                    }
+
+                    .overlay p{
+                        margin-bottom: 5px;
+                        margin-top: 80%;
+                        font-size: 25px;
+                        
+                    }
+
+
+                }
             }
             .p3{
                 height: 200px;
                 width: 300px;
                 background-color: blue;
-                background-image: url(../images/ron.webp);
+                background-image: url(../images/ron.png);
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
+                border-radius: 10px;
+                position: relative;
+                overflow: hidden;
+                box-shadow: 5px 5px 5px  rgba(167, 147, 33, 0.9);
+                display: block;
+                transition: transform .5s;
+                &:hover {
+                    transform: scale(1.2);
+
+                    .overlay{
+                        height: 75%;
+                        
+                    }
+                }
+
+                .overlay {
+                    height: 0;
+                    width: 100%;
+                    position: absolute;
+                    background: linear-gradient(transparent, #390E65 45%);
+                    left: 0;
+                    bottom: 0;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0 50px;
+                    text-align: center;
+                    font-size: 14px;
+                    transition: height .5s;
+                    color: rgba(255, 255, 255, 0.637);
+
+                    .overlay h1{
+                        margin-bottom: 5px;
+                        margin-top: 80%;
+                        font-size: 25px;
+                        
+                        
+                    }
+
+                    .overlay p{
+                        margin-bottom: 5px;
+                        margin-top: 80%;
+                        font-size: 25px;
+                        
+                    }
+
+
+                }
             }
         }
         .r2{
             height: 200px;
             width: 100%;
-            background-color: purple;
+            
             justify-content: space-between;
             align-items: center;
             display: flex;
-            margin-top: 50px;
+            margin-top: 25px;
             .p4{
                 height: 200px;
                 width: 300px;
-                background-color: blue;
+                background-color: blue; background-image: url(../images/voldemort.webp);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 10px;
+                position: relative;
+                overflow: hidden;
+                box-shadow: 5px 5px 5px  rgba(167, 147, 33, 0.9);
+                display: block;
+                transition: transform .5s;
+                &:hover {
+                    transform: scale(1.2);
+
+                    .overlay{
+                        height: 75%;
+                        
+                    }
+                }
+
+                .overlay {
+                    height: 0;
+                    width: 100%;
+                    position: absolute;
+                    background: linear-gradient(transparent, #390E65 45%);
+                    left: 0;
+                    bottom: 0;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0 50px;
+                    text-align: center;
+                    font-size: 14px;
+                    transition: height .5s;
+                    color: rgba(255, 255, 255, 0.637);
+
+                    .overlay h1{
+                        margin-bottom: 5px;
+                        margin-top: 80%;
+                        font-size: 25px;
+                        
+                        
+                    }
+
+                    .overlay p{
+                        margin-bottom: 5px;
+                        margin-top: 80%;
+                        font-size: 25px;
+                        
+                    }
+
+
+                }
             }
             .p5{
                 height: 200px;
                 width: 300px;
                 background-color: blue;
+                background-image: url(../images/lucius.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 10px;
+                position: relative;
+                overflow: hidden;
+                box-shadow: 5px 5px 5px  rgba(167, 147, 33, 0.9);
+                display: block;
+                transition: transform .5s;
+                &:hover {
+                    transform: scale(1.2);
+
+                    .overlay{
+                        height: 75%;
+                        
+                    }
+                }
+
+                .overlay {
+                    height: 0;
+                    width: 100%;
+                    position: absolute;
+                    background: linear-gradient(transparent, #390E65 45%);
+                    left: 0;
+                    bottom: 0;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0 50px;
+                    text-align: center;
+                    font-size: 14px;
+                    transition: height .5s;
+                    color: rgba(255, 255, 255, 0.637);
+
+                    .overlay h1{
+                        margin-bottom: 5px;
+                        margin-top: 80%;
+                        font-size: 25px;
+                        
+                        
+                    }
+
+                    .overlay p{
+                        margin-bottom: 5px;
+                        margin-top: 80%;
+                        font-size: 25px;
+                        
+                    }
+
+
+                }
             }
             .p6{
                 height: 200px;
                 width: 300px;
                 background-color: blue;
+                background-image: url(../images/peter.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 10px;
+                position: relative;
+                overflow: hidden;
+                box-shadow: 5px 5px 5px  rgba(167, 147, 33, 0.9);
+                display: block;
+                transition: transform .5s;
+                &:hover {
+                    transform: scale(1.2);
+
+                    .overlay{
+                        height: 75%;
+                        
+                    }
+                }
+
+                .overlay {
+                    height: 0;
+                    width: 100%;
+                    position: absolute;
+                    background: linear-gradient(transparent, #390E65 45%);
+                    left: 0;
+                    bottom: 0;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0 50px;
+                    text-align: center;
+                    font-size: 14px;
+                    transition: height .5s;
+                    color: rgba(255, 255, 255, 0.637);
+
+                    .overlay h1{
+                        margin-bottom: 5px;
+                        margin-top: 80%;
+                        font-size: 25px;
+                        
+                        
+                    }
+
+                    .overlay p{
+                        margin-bottom: 5px;
+                        margin-top: 80%;
+                        font-size: 25px;
+                        
+                    }
+
+
+                }
             }
         }
         .r3{
             height: 200px;
             width: 100%;
-            background-color: black;
+            
             justify-content: space-between;
             align-items: center;
             display: flex;
             margin-top: 50px;
+
+            margin-top: 25px;
             .p7{
                 height: 200px;
                 width: 300px;
                 background-color: blue;
+                background-image: url(../images/Albus-Dumbledore.avif);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;border-radius: 10px;
+                position: relative;
+                overflow: hidden;
+                box-shadow: 5px 5px 5px  rgba(167, 147, 33, 0.9);
+                display: block;
+                transition: transform .5s;
+                &:hover {
+                    transform: scale(1.2);
+
+                    .overlay{
+                        height: 75%;
+                        
+                    }
+                }
+
+                .overlay {
+                    height: 0;
+                    width: 100%;
+                    position: absolute;
+                    background: linear-gradient(transparent, #390E65 45%);
+                    left: 0;
+                    bottom: 0;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0 50px;
+                    text-align: center;
+                    font-size: 14px;
+                    transition: height .5s;
+                    color: rgba(255, 255, 255, 0.637);
+
+                    .overlay h1{
+                        margin-bottom: 5px;
+                        margin-top: 80%;
+                        font-size: 25px;
+                        
+                        
+                    }
+
+                    .overlay p{
+                        margin-bottom: 5px;
+                        margin-top: 80%;
+                        font-size: 25px;
+                        
+                    }
+
+
+                }
             }
             .p8{
                 height: 200px;
                 width: 300px;
                 background-color: blue;
+                background-image: url(../images/hagrid.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 10px;
+                position: relative;
+                overflow: hidden;
+                box-shadow: 5px 5px 5px  rgba(167, 147, 33, 0.9);
+                display: block;
+                transition: transform .5s;
+                &:hover {
+                    transform: scale(1.2);
+
+                    .overlay{
+                        height: 80%;
+                        
+                    }
+                }
+
+                .overlay {
+                    height: 0;
+                    width: 100%;
+                    position: absolute;
+                    background: linear-gradient(transparent,#390E65 45%);
+                    left: 0;
+                    bottom: 0;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0 50px;
+                    text-align: center;
+                    font-size: 14px;
+                    transition: height .5s;
+                    color: rgba(255, 255, 255, 0.637);
+
+                    .overlay h1{
+                        margin-bottom: 5px;
+                        margin-top: 80%;
+                        font-size: 25px;
+                        
+                        
+                    }
+
+                    .overlay p{
+                        margin-bottom: 5px;
+                        margin-top: 80%;
+                        font-size: 25px;
+                        
+                    }
+
+
+                }
             }
             .p9{
                 height: 200px;
                 width: 300px;
                 background-color: blue;
+                background-image: url(../images/snape.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 10px;
+                position: relative;
+                overflow: hidden;
+                box-shadow: 5px 5px 5px  rgba(167, 147, 33, 0.9);
+                display: block;
+                transition: transform .5s;
+                &:hover {
+                    transform: scale(1.2);
+
+                    .overlay{
+                        height: 75%;
+                        
+                    }
+                }
+
+                .overlay {
+                    height: 0;
+                    width: 100%;
+                    position: absolute;
+                    background: linear-gradient(transparent, #390E65 45%);
+                    left: 0;
+                    bottom: 0;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0 50px;
+                    text-align: center;
+                    font-size: 14px;
+                    transition: height .5s;
+                    color: rgba(255, 255, 255, 0.637);
+
+                    .overlay h1{
+                        margin-bottom: 5px;
+                        margin-top: 100%;
+                        font-size: 25px;
+                        
+                        
+                    }
+
+                    .overlay p{
+                        margin-bottom: 10px;
+                        margin-top: 80%;
+                        font-size: 25px;
+                        
+                    }
+
+
+                }
             }
         }
     }

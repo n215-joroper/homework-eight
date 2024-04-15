@@ -96,13 +96,17 @@ nav a {
   margin: 0 auto;
   width: 1000px;
 }
+.people .people-holder h1 {
+  color: white;
+  padding-top: 30px;
+}
 .people .people-holder .r1 {
   height: 200px;
   width: 100%;
-  background-color: red;
   justify-content: space-between;
   align-items: center;
   display: flex;
+  margin-top: 25px;
 }
 .people .people-holder .r1 .p1 {
   height: 200px;
@@ -112,6 +116,44 @@ nav a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
+  display: block;
+  transition: transform 0.5s;
+}
+.people .people-holder .r1 .p1:hover {
+  transform: scale(1.2);
+}
+.people .people-holder .r1 .p1:hover .overlay {
+  height: 75%;
+}
+.people .people-holder .r1 .p1 .overlay {
+  height: 0;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(transparent, #390E65 45%);
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+  color: rgba(255, 255, 255, 0.637);
+}
+.people .people-holder .r1 .p1 .overlay .overlay h1 {
+  margin-bottom: 5px;
+  margin-top: 80%;
+  font-size: 25px;
+}
+.people .people-holder .r1 .p1 .overlay .overlay p {
+  margin-bottom: 5px;
+  margin-top: 80%;
+  font-size: 25px;
 }
 .people .people-holder .r1 .p2 {
   height: 200px;
@@ -121,63 +163,390 @@ nav a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
+  display: block;
+  transition: transform 0.5s;
+}
+.people .people-holder .r1 .p2:hover {
+  transform: scale(1.2);
+}
+.people .people-holder .r1 .p2:hover .overlay {
+  height: 75%;
+}
+.people .people-holder .r1 .p2 .overlay {
+  height: 0;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(transparent, #390E65 45%);
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+  color: rgba(255, 255, 255, 0.637);
+}
+.people .people-holder .r1 .p2 .overlay .overlay h1 {
+  margin-bottom: 5px;
+  margin-top: 80%;
+  font-size: 25px;
+}
+.people .people-holder .r1 .p2 .overlay .overlay p {
+  margin-bottom: 5px;
+  margin-top: 80%;
+  font-size: 25px;
 }
 .people .people-holder .r1 .p3 {
   height: 200px;
   width: 300px;
   background-color: blue;
-  background-image: url(../images/ron.webp);
+  background-image: url(../images/ron.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
+  display: block;
+  transition: transform 0.5s;
+}
+.people .people-holder .r1 .p3:hover {
+  transform: scale(1.2);
+}
+.people .people-holder .r1 .p3:hover .overlay {
+  height: 75%;
+}
+.people .people-holder .r1 .p3 .overlay {
+  height: 0;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(transparent, #390E65 45%);
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+  color: rgba(255, 255, 255, 0.637);
+}
+.people .people-holder .r1 .p3 .overlay .overlay h1 {
+  margin-bottom: 5px;
+  margin-top: 80%;
+  font-size: 25px;
+}
+.people .people-holder .r1 .p3 .overlay .overlay p {
+  margin-bottom: 5px;
+  margin-top: 80%;
+  font-size: 25px;
 }
 .people .people-holder .r2 {
   height: 200px;
   width: 100%;
-  background-color: purple;
   justify-content: space-between;
   align-items: center;
   display: flex;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 .people .people-holder .r2 .p4 {
   height: 200px;
   width: 300px;
   background-color: blue;
+  background-image: url(../images/voldemort.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
+  display: block;
+  transition: transform 0.5s;
+}
+.people .people-holder .r2 .p4:hover {
+  transform: scale(1.2);
+}
+.people .people-holder .r2 .p4:hover .overlay {
+  height: 75%;
+}
+.people .people-holder .r2 .p4 .overlay {
+  height: 0;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(transparent, #390E65 45%);
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+  color: rgba(255, 255, 255, 0.637);
+}
+.people .people-holder .r2 .p4 .overlay .overlay h1 {
+  margin-bottom: 5px;
+  margin-top: 80%;
+  font-size: 25px;
+}
+.people .people-holder .r2 .p4 .overlay .overlay p {
+  margin-bottom: 5px;
+  margin-top: 80%;
+  font-size: 25px;
 }
 .people .people-holder .r2 .p5 {
   height: 200px;
   width: 300px;
   background-color: blue;
+  background-image: url(../images/lucius.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
+  display: block;
+  transition: transform 0.5s;
+}
+.people .people-holder .r2 .p5:hover {
+  transform: scale(1.2);
+}
+.people .people-holder .r2 .p5:hover .overlay {
+  height: 75%;
+}
+.people .people-holder .r2 .p5 .overlay {
+  height: 0;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(transparent, #390E65 45%);
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+  color: rgba(255, 255, 255, 0.637);
+}
+.people .people-holder .r2 .p5 .overlay .overlay h1 {
+  margin-bottom: 5px;
+  margin-top: 80%;
+  font-size: 25px;
+}
+.people .people-holder .r2 .p5 .overlay .overlay p {
+  margin-bottom: 5px;
+  margin-top: 80%;
+  font-size: 25px;
 }
 .people .people-holder .r2 .p6 {
   height: 200px;
   width: 300px;
   background-color: blue;
+  background-image: url(../images/peter.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
+  display: block;
+  transition: transform 0.5s;
+}
+.people .people-holder .r2 .p6:hover {
+  transform: scale(1.2);
+}
+.people .people-holder .r2 .p6:hover .overlay {
+  height: 75%;
+}
+.people .people-holder .r2 .p6 .overlay {
+  height: 0;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(transparent, #390E65 45%);
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+  color: rgba(255, 255, 255, 0.637);
+}
+.people .people-holder .r2 .p6 .overlay .overlay h1 {
+  margin-bottom: 5px;
+  margin-top: 80%;
+  font-size: 25px;
+}
+.people .people-holder .r2 .p6 .overlay .overlay p {
+  margin-bottom: 5px;
+  margin-top: 80%;
+  font-size: 25px;
 }
 .people .people-holder .r3 {
   height: 200px;
   width: 100%;
-  background-color: black;
   justify-content: space-between;
   align-items: center;
   display: flex;
   margin-top: 50px;
+  margin-top: 25px;
 }
 .people .people-holder .r3 .p7 {
   height: 200px;
   width: 300px;
   background-color: blue;
+  background-image: url(../images/Albus-Dumbledore.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
+  display: block;
+  transition: transform 0.5s;
+}
+.people .people-holder .r3 .p7:hover {
+  transform: scale(1.2);
+}
+.people .people-holder .r3 .p7:hover .overlay {
+  height: 75%;
+}
+.people .people-holder .r3 .p7 .overlay {
+  height: 0;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(transparent, #390E65 45%);
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+  color: rgba(255, 255, 255, 0.637);
+}
+.people .people-holder .r3 .p7 .overlay .overlay h1 {
+  margin-bottom: 5px;
+  margin-top: 80%;
+  font-size: 25px;
+}
+.people .people-holder .r3 .p7 .overlay .overlay p {
+  margin-bottom: 5px;
+  margin-top: 80%;
+  font-size: 25px;
 }
 .people .people-holder .r3 .p8 {
   height: 200px;
   width: 300px;
   background-color: blue;
+  background-image: url(../images/hagrid.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
+  display: block;
+  transition: transform 0.5s;
+}
+.people .people-holder .r3 .p8:hover {
+  transform: scale(1.2);
+}
+.people .people-holder .r3 .p8:hover .overlay {
+  height: 80%;
+}
+.people .people-holder .r3 .p8 .overlay {
+  height: 0;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(transparent, #390E65 45%);
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+  color: rgba(255, 255, 255, 0.637);
+}
+.people .people-holder .r3 .p8 .overlay .overlay h1 {
+  margin-bottom: 5px;
+  margin-top: 80%;
+  font-size: 25px;
+}
+.people .people-holder .r3 .p8 .overlay .overlay p {
+  margin-bottom: 5px;
+  margin-top: 80%;
+  font-size: 25px;
 }
 .people .people-holder .r3 .p9 {
   height: 200px;
   width: 300px;
   background-color: blue;
+  background-image: url(../images/snape.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
+  display: block;
+  transition: transform 0.5s;
+}
+.people .people-holder .r3 .p9:hover {
+  transform: scale(1.2);
+}
+.people .people-holder .r3 .p9:hover .overlay {
+  height: 75%;
+}
+.people .people-holder .r3 .p9 .overlay {
+  height: 0;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(transparent, #390E65 45%);
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+  color: rgba(255, 255, 255, 0.637);
+}
+.people .people-holder .r3 .p9 .overlay .overlay h1 {
+  margin-bottom: 5px;
+  margin-top: 100%;
+  font-size: 25px;
+}
+.people .people-holder .r3 .p9 .overlay .overlay p {
+  margin-bottom: 10px;
+  margin-top: 80%;
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=styles.css.map */
