@@ -1,0 +1,102 @@
+.people{
+    max-width: 100%;
+    height: 1000px;
+    //background-color: gold;
+    //margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+
+
+    .people-holder{
+        margin: 0 auto;
+        width: 1000px;
+
+        .r1{
+            height: 200px;
+            width: 100%;
+            background-color: red;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            .p1{
+                height: 200px;
+                width: 300px;
+                background-color: blue;
+                background-image: url(../images/harry.webp);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .p2{
+                height: 200px;
+                width: 300px;
+                background-color: blue;
+                background-image: url(../images/hermione.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+            .p3{
+                height: 200px;
+                width: 300px;
+                background-color: blue;
+                background-image: url(../images/ron.webp);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+        .r2{
+            height: 200px;
+            width: 100%;
+            background-color: purple;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            margin-top: 50px;
+            .p4{
+                height: 200px;
+                width: 300px;
+                background-color: blue;
+            }
+            .p5{
+                height: 200px;
+                width: 300px;
+                background-color: blue;
+            }
+            .p6{
+                height: 200px;
+                width: 300px;
+                background-color: blue;
+            }
+        }
+        .r3{
+            height: 200px;
+            width: 100%;
+            background-color: black;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            margin-top: 50px;
+            .p7{
+                height: 200px;
+                width: 300px;
+                background-color: blue;
+            }
+            .p8{
+                height: 200px;
+                width: 300px;
+                background-color: blue;
+            }
+            .p9{
+                height: 200px;
+                width: 300px;
+                background-color: blue;
+            }
+        }
+    }
+}

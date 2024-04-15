@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #1D1B1B;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+nav .wizard {
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav a {
+  text-decoration: none;
+  color: #390E65;
+}
+
+.hogwarts {
+  max-width: 100%;
+  max-height: 100%;
+}
+.hogwarts .hogwarts-photo {
+  max-width: 100%;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  background-image: url(../images/hogwarts.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hogwarts .hogwarts-photo .title-holder {
+  height: 140px;
+  width: 250px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px;
+}
+.hogwarts .hogwarts-photo .creator {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
+.hogwarts .hogwarts-photo .creator .creator-text {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(167, 147, 33);
+}
+.hogwarts .intro-holder {
+  margin: 0 auto;
+  width: 50%;
+  height: 100px;
+  padding-top: 50px;
+}
+.hogwarts .intro-holder .intro-text {
+  color: rgb(167, 147, 33);
+}
+
+.people {
+  max-width: 100%;
+  height: 1000px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.people .people-holder {
+  margin: 0 auto;
+  width: 1000px;
+}
+.people .people-holder .r1 {
+  height: 200px;
+  width: 100%;
+  background-color: red;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.people .people-holder .r1 .p1 {
+  height: 200px;
+  width: 300px;
+  background-color: blue;
+  background-image: url(../images/harry.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.people .people-holder .r1 .p2 {
+  height: 200px;
+  width: 300px;
+  background-color: blue;
+  background-image: url(../images/hermione.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.people .people-holder .r1 .p3 {
+  height: 200px;
+  width: 300px;
+  background-color: blue;
+  background-image: url(../images/ron.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.people .people-holder .r2 {
+  height: 200px;
+  width: 100%;
+  background-color: purple;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin-top: 50px;
+}
+.people .people-holder .r2 .p4 {
+  height: 200px;
+  width: 300px;
+  background-color: blue;
+}
+.people .people-holder .r2 .p5 {
+  height: 200px;
+  width: 300px;
+  background-color: blue;
+}
+.people .people-holder .r2 .p6 {
+  height: 200px;
+  width: 300px;
+  background-color: blue;
+}
+.people .people-holder .r3 {
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin-top: 50px;
+}
+.people .people-holder .r3 .p7 {
+  height: 200px;
+  width: 300px;
+  background-color: blue;
+}
+.people .people-holder .r3 .p8 {
+  height: 200px;
+  width: 300px;
+  background-color: blue;
+}
+.people .people-holder .r3 .p9 {
+  height: 200px;
+  width: 300px;
+  background-color: blue;
+}
+
+/*# sourceMappingURL=styles.css.map */
