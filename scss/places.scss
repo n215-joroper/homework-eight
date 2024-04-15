@@ -1,0 +1,131 @@
+.places{
+    .place{
+        font-size: 30px;
+        color: rgb(167, 147, 33);
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    .places-holder{
+        width: 900px;
+        min-height: 1800px;
+        margin: 0 auto;
+  
+        justify-content: center;
+        align-items: center;
+        
+        .diagon{
+            height: 600px;
+            width: 100%;
+           
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            
+            .diagon-title{
+                font-size: 25px;
+                color: rgba(255, 255, 255, 0.637);
+              
+            }
+
+            .diagon-holder{
+                display: flex;
+                .diagon-photo{
+                    height: 350px;
+                    width: 600px;
+                    background-image: url(../images/DiagonAlley.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    
+                }
+    
+                .diagon-info{
+                    width: 300px;
+                    font-size: 20px;
+                    padding-left: 20px;
+                    text-align: center;
+                    color: rgba(255, 255, 255, 0.637);
+                   
+                }
+            }
+          
+        }
+        .greenhouse{
+            height: 500px;
+            width: 100%;
+          
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .greenhouse-title{
+                font-size: 25px;
+                color: rgba(255, 255, 255, 0.637);
+                
+            }
+
+            .greenhouse-holder{
+                display: flex;
+                .greenhouse-photo{
+                    height: 350px;
+                    width: 600px;
+                    background-image: url(../images/greenhouse.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+    
+                .greenhouse-info{
+                   
+                    width: 300px;
+                    font-size: 20px;
+                    padding-left: 20px;
+                    text-align: center;
+                    color: rgba(255, 255, 255, 0.637);
+                }
+            }
+           
+        }
+
+        .forbidden{
+            height: 500px;
+            width: 100%;
+           
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .forbidden-title{
+                font-size: 25px;
+                color: rgba(255, 255, 255, 0.637);
+                
+            }
+
+            .forbidden-holder{
+                display: flex;
+                .forbidden-photo{
+                    height: 350px;
+                    width: 600px;
+                    background-image: url(../images/forbidden.avif);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+    
+                .forbidden-info{
+                    width: 300px;
+                    font-size: 20px;
+                    padding-left: 20px;
+                    text-align: center;
+                    color: rgba(255, 255, 255, 0.637);
+                }
+            }
+           
+        }
+    }
+}

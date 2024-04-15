@@ -1,20 +1,26 @@
 .people{
     max-width: 100%;
-    height: 1000px;
+    height: 1060px;
     //background-color: gold;
     //margin-top: 100px;
     justify-content: center;
     align-items: center;
-    display: flex;
+    //display: flex;
     
     
+    .people-title{
+        font-size: 30px;
+        color: rgb(167, 147, 33);
+        padding-left: 30px;
+        padding-top: 30px;
+    }
 
 
     .people-holder{
         margin: 0 auto;
         width: 1000px;
         h1{
-            color: white;
+            color: rgba(255, 255, 255, 0.637);
             padding-top: 30px;
 
         }
@@ -28,6 +34,7 @@
             align-items: center;
             display: flex;
             margin-top: 25px;
+            //NOTE: I wanted to learn and implement something interesting. So some of this code is improvised from a video online. In no means am I trying to plagarize, only trying to learn!
             .p1{
                 height: 200px;
                 width: 300px;
@@ -41,33 +48,39 @@
                 overflow: hidden;
                 box-shadow: 5px 5px 5px  rgba(167, 147, 33, 0.9);
                 display: block;
-                transition: transform .5s;
+                transition: transform .4s;
 
-             
-
+                //The & symbol allows us to perform css on the parent, and hover is a psudo element that is called when the user hovers over the picture 
                 &:hover {
+                    //this makes the image bigger by 1.2 times
                     transform: scale(1.2);
-
+    
                     .overlay{
+                        //This is in indicator of how high we want the fade in animation to go. Im this case, it will be 75% of the parent
                         height: 75%;
                         
                     }
                 }
 
+                
+
                 .overlay {
                     height: 0;
                     width: 100%;
                     position: absolute;
+                    //This is the fade. Transparent meaning you transition from one color to another. The color being the color, and the percentage being where the transition from color to color happens
                     background: linear-gradient(transparent, #390E65 45%);
                     left: 0;
                     bottom: 0;
+                    //Makes the text and background color hidden
                     overflow: hidden;
                     display: flex;
                     flex-direction: column;
                     padding: 0 50px;
                     text-align: center;
                     font-size: 14px;
-                    transition: height .5s;
+                    //This tells the fade in transition how long it should take to get to the max height
+                    transition: height .4s;
                     color: rgba(255, 255, 255, 0.637);
 
                     .overlay h1{
@@ -89,6 +102,7 @@
 
                
             }
+           
             .p2{
                 height: 200px;
                 width: 300px;
@@ -102,7 +116,7 @@
                 overflow: hidden;
                 box-shadow: 5px 5px 5px  rgba(167, 147, 33, 0.9);
                 display: block;
-                transition: transform .5s;
+                transition: transform .4s;
 
                 &:hover {
                     transform: scale(1.2);
@@ -126,7 +140,7 @@
                     padding: 0 50px;
                     text-align: center;
                     font-size: 14px;
-                    transition: height .5s;
+                    transition: height .4s;
                     color: rgba(255, 255, 255, 0.637);
 
                     .overlay h1{
@@ -160,7 +174,7 @@
                 overflow: hidden;
                 box-shadow: 5px 5px 5px  rgba(167, 147, 33, 0.9);
                 display: block;
-                transition: transform .5s;
+                transition: transform .4s;
                 &:hover {
                     transform: scale(1.2);
 
@@ -183,7 +197,7 @@
                     padding: 0 50px;
                     text-align: center;
                     font-size: 14px;
-                    transition: height .5s;
+                    transition: height .4s;
                     color: rgba(255, 255, 255, 0.637);
 
                     .overlay h1{
@@ -225,7 +239,7 @@
                 overflow: hidden;
                 box-shadow: 5px 5px 5px  rgba(167, 147, 33, 0.9);
                 display: block;
-                transition: transform .5s;
+                transition: transform .4s;
                 &:hover {
                     transform: scale(1.2);
 
@@ -248,7 +262,7 @@
                     padding: 0 50px;
                     text-align: center;
                     font-size: 14px;
-                    transition: height .5s;
+                    transition: height .4s;
                     color: rgba(255, 255, 255, 0.637);
 
                     .overlay h1{
@@ -282,7 +296,7 @@
                 overflow: hidden;
                 box-shadow: 5px 5px 5px  rgba(167, 147, 33, 0.9);
                 display: block;
-                transition: transform .5s;
+                transition: transform .4s;
                 &:hover {
                     transform: scale(1.2);
 
@@ -305,7 +319,7 @@
                     padding: 0 50px;
                     text-align: center;
                     font-size: 14px;
-                    transition: height .5s;
+                    transition: height .4s;
                     color: rgba(255, 255, 255, 0.637);
 
                     .overlay h1{
@@ -339,7 +353,7 @@
                 overflow: hidden;
                 box-shadow: 5px 5px 5px  rgba(167, 147, 33, 0.9);
                 display: block;
-                transition: transform .5s;
+                transition: transform .4s;
                 &:hover {
                     transform: scale(1.2);
 
@@ -362,7 +376,7 @@
                     padding: 0 50px;
                     text-align: center;
                     font-size: 14px;
-                    transition: height .5s;
+                    transition: height .4s;
                     color: rgba(255, 255, 255, 0.637);
 
                     .overlay h1{
@@ -406,7 +420,7 @@
                 overflow: hidden;
                 box-shadow: 5px 5px 5px  rgba(167, 147, 33, 0.9);
                 display: block;
-                transition: transform .5s;
+                transition: transform .4s;
                 &:hover {
                     transform: scale(1.2);
 
@@ -429,7 +443,7 @@
                     padding: 0 50px;
                     text-align: center;
                     font-size: 14px;
-                    transition: height .5s;
+                    transition: height .4s;
                     color: rgba(255, 255, 255, 0.637);
 
                     .overlay h1{
@@ -463,7 +477,7 @@
                 overflow: hidden;
                 box-shadow: 5px 5px 5px  rgba(167, 147, 33, 0.9);
                 display: block;
-                transition: transform .5s;
+                transition: transform .4s;
                 &:hover {
                     transform: scale(1.2);
 
@@ -486,7 +500,7 @@
                     padding: 0 50px;
                     text-align: center;
                     font-size: 14px;
-                    transition: height .5s;
+                    transition: height .4s;
                     color: rgba(255, 255, 255, 0.637);
 
                     .overlay h1{
@@ -520,7 +534,7 @@
                 overflow: hidden;
                 box-shadow: 5px 5px 5px  rgba(167, 147, 33, 0.9);
                 display: block;
-                transition: transform .5s;
+                transition: transform .4s;
                 &:hover {
                     transform: scale(1.2);
 
@@ -543,7 +557,7 @@
                     padding: 0 50px;
                     text-align: center;
                     font-size: 14px;
-                    transition: height .5s;
+                    transition: height .4s;
                     color: rgba(255, 255, 255, 0.637);
 
                     .overlay h1{

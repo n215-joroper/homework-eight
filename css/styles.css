@@ -15,26 +15,19 @@ h1, h2, h3, h4, h5, h6, p {
 
 nav {
   height: 100px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.637);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-left: 30px;
   padding-right: 30px;
 }
-nav .wizard {
-  height: 50px;
-  width: 50px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 nav a {
+  font-size: 20px;
+  font-weight: bold;
   text-decoration: none;
   color: #390E65;
+  padding: 20px;
 }
 
 .hogwarts {
@@ -43,7 +36,7 @@ nav a {
 }
 .hogwarts .hogwarts-photo {
   max-width: 100%;
-  height: 800px;
+  height: 500px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -53,15 +46,12 @@ nav a {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.hogwarts .hogwarts-photo .title-holder {
-  height: 140px;
-  width: 250px;
+.hogwarts .hogwarts-photo .title-holder .title {
+  font-size: 40px;
+  color: rgb(167, 147, 33);
   position: absolute;
   top: 0;
   left: 0;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   margin: 20px;
 }
 .hogwarts .hogwarts-photo .creator {
@@ -84,20 +74,141 @@ nav a {
 .hogwarts .intro-holder .intro-text {
   color: rgb(167, 147, 33);
 }
+.hogwarts .intro-holder .intro-text h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.hogwarts .intro-holder .intro-text p {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.places .place {
+  font-size: 30px;
+  color: rgb(167, 147, 33);
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.places .places-holder {
+  width: 900px;
+  min-height: 1800px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.places .places-holder .diagon {
+  height: 600px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.places .places-holder .diagon .diagon-title {
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.637);
+}
+.places .places-holder .diagon .diagon-holder {
+  display: flex;
+}
+.places .places-holder .diagon .diagon-holder .diagon-photo {
+  height: 350px;
+  width: 600px;
+  background-image: url(../images/DiagonAlley.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.places .places-holder .diagon .diagon-holder .diagon-info {
+  width: 300px;
+  font-size: 20px;
+  padding-left: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.637);
+}
+.places .places-holder .greenhouse {
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.places .places-holder .greenhouse .greenhouse-title {
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.637);
+}
+.places .places-holder .greenhouse .greenhouse-holder {
+  display: flex;
+}
+.places .places-holder .greenhouse .greenhouse-holder .greenhouse-photo {
+  height: 350px;
+  width: 600px;
+  background-image: url(../images/greenhouse.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.places .places-holder .greenhouse .greenhouse-holder .greenhouse-info {
+  width: 300px;
+  font-size: 20px;
+  padding-left: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.637);
+}
+.places .places-holder .forbidden {
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.places .places-holder .forbidden .forbidden-title {
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.637);
+}
+.places .places-holder .forbidden .forbidden-holder {
+  display: flex;
+}
+.places .places-holder .forbidden .forbidden-holder .forbidden-photo {
+  height: 350px;
+  width: 600px;
+  background-image: url(../images/forbidden.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.places .places-holder .forbidden .forbidden-holder .forbidden-info {
+  width: 300px;
+  font-size: 20px;
+  padding-left: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.637);
+}
 
 .people {
   max-width: 100%;
-  height: 1000px;
+  height: 1060px;
   justify-content: center;
   align-items: center;
-  display: flex;
+}
+.people .people-title {
+  font-size: 30px;
+  color: rgb(167, 147, 33);
+  padding-left: 30px;
+  padding-top: 30px;
 }
 .people .people-holder {
   margin: 0 auto;
   width: 1000px;
 }
 .people .people-holder h1 {
-  color: white;
+  color: rgba(255, 255, 255, 0.637);
   padding-top: 30px;
 }
 .people .people-holder .r1 {
@@ -121,7 +232,7 @@ nav a {
   overflow: hidden;
   box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
   display: block;
-  transition: transform 0.5s;
+  transition: transform 0.4s;
 }
 .people .people-holder .r1 .p1:hover {
   transform: scale(1.2);
@@ -142,7 +253,7 @@ nav a {
   padding: 0 50px;
   text-align: center;
   font-size: 14px;
-  transition: height 0.5s;
+  transition: height 0.4s;
   color: rgba(255, 255, 255, 0.637);
 }
 .people .people-holder .r1 .p1 .overlay .overlay h1 {
@@ -168,7 +279,7 @@ nav a {
   overflow: hidden;
   box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
   display: block;
-  transition: transform 0.5s;
+  transition: transform 0.4s;
 }
 .people .people-holder .r1 .p2:hover {
   transform: scale(1.2);
@@ -189,7 +300,7 @@ nav a {
   padding: 0 50px;
   text-align: center;
   font-size: 14px;
-  transition: height 0.5s;
+  transition: height 0.4s;
   color: rgba(255, 255, 255, 0.637);
 }
 .people .people-holder .r1 .p2 .overlay .overlay h1 {
@@ -215,7 +326,7 @@ nav a {
   overflow: hidden;
   box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
   display: block;
-  transition: transform 0.5s;
+  transition: transform 0.4s;
 }
 .people .people-holder .r1 .p3:hover {
   transform: scale(1.2);
@@ -236,7 +347,7 @@ nav a {
   padding: 0 50px;
   text-align: center;
   font-size: 14px;
-  transition: height 0.5s;
+  transition: height 0.4s;
   color: rgba(255, 255, 255, 0.637);
 }
 .people .people-holder .r1 .p3 .overlay .overlay h1 {
@@ -270,7 +381,7 @@ nav a {
   overflow: hidden;
   box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
   display: block;
-  transition: transform 0.5s;
+  transition: transform 0.4s;
 }
 .people .people-holder .r2 .p4:hover {
   transform: scale(1.2);
@@ -291,7 +402,7 @@ nav a {
   padding: 0 50px;
   text-align: center;
   font-size: 14px;
-  transition: height 0.5s;
+  transition: height 0.4s;
   color: rgba(255, 255, 255, 0.637);
 }
 .people .people-holder .r2 .p4 .overlay .overlay h1 {
@@ -317,7 +428,7 @@ nav a {
   overflow: hidden;
   box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
   display: block;
-  transition: transform 0.5s;
+  transition: transform 0.4s;
 }
 .people .people-holder .r2 .p5:hover {
   transform: scale(1.2);
@@ -338,7 +449,7 @@ nav a {
   padding: 0 50px;
   text-align: center;
   font-size: 14px;
-  transition: height 0.5s;
+  transition: height 0.4s;
   color: rgba(255, 255, 255, 0.637);
 }
 .people .people-holder .r2 .p5 .overlay .overlay h1 {
@@ -364,7 +475,7 @@ nav a {
   overflow: hidden;
   box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
   display: block;
-  transition: transform 0.5s;
+  transition: transform 0.4s;
 }
 .people .people-holder .r2 .p6:hover {
   transform: scale(1.2);
@@ -385,7 +496,7 @@ nav a {
   padding: 0 50px;
   text-align: center;
   font-size: 14px;
-  transition: height 0.5s;
+  transition: height 0.4s;
   color: rgba(255, 255, 255, 0.637);
 }
 .people .people-holder .r2 .p6 .overlay .overlay h1 {
@@ -420,7 +531,7 @@ nav a {
   overflow: hidden;
   box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
   display: block;
-  transition: transform 0.5s;
+  transition: transform 0.4s;
 }
 .people .people-holder .r3 .p7:hover {
   transform: scale(1.2);
@@ -441,7 +552,7 @@ nav a {
   padding: 0 50px;
   text-align: center;
   font-size: 14px;
-  transition: height 0.5s;
+  transition: height 0.4s;
   color: rgba(255, 255, 255, 0.637);
 }
 .people .people-holder .r3 .p7 .overlay .overlay h1 {
@@ -467,7 +578,7 @@ nav a {
   overflow: hidden;
   box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
   display: block;
-  transition: transform 0.5s;
+  transition: transform 0.4s;
 }
 .people .people-holder .r3 .p8:hover {
   transform: scale(1.2);
@@ -488,7 +599,7 @@ nav a {
   padding: 0 50px;
   text-align: center;
   font-size: 14px;
-  transition: height 0.5s;
+  transition: height 0.4s;
   color: rgba(255, 255, 255, 0.637);
 }
 .people .people-holder .r3 .p8 .overlay .overlay h1 {
@@ -514,7 +625,7 @@ nav a {
   overflow: hidden;
   box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
   display: block;
-  transition: transform 0.5s;
+  transition: transform 0.4s;
 }
 .people .people-holder .r3 .p9:hover {
   transform: scale(1.2);
@@ -535,7 +646,7 @@ nav a {
   padding: 0 50px;
   text-align: center;
   font-size: 14px;
-  transition: height 0.5s;
+  transition: height 0.4s;
   color: rgba(255, 255, 255, 0.637);
 }
 .people .people-holder .r3 .p9 .overlay .overlay h1 {
@@ -547,6 +658,128 @@ nav a {
   margin-bottom: 10px;
   margin-top: 80%;
   font-size: 25px;
+}
+
+.contact {
+  height: 100%;
+}
+.contact .contact-holder {
+  display: flex;
+  max-width: 100%;
+  height: 900px;
+}
+.contact .contact-holder .right {
+  height: 100%;
+  width: 50%;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.contact .contact-holder .right .acceptance {
+  padding-top: 20px;
+  background-image: url(../images/acceptance.jpg);
+  height: 50%;
+  width: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+}
+.contact .contact-holder .right .thanks {
+  padding-top: 20px;
+  height: 50%;
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 250px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.contact .contact-holder .right .thanks .thanks-header {
+  color: rgba(255, 255, 255, 0.637);
+  font-size: 25px;
+}
+.contact .contact-holder .right .thanks .thanks-info {
+  color: rgba(255, 255, 255, 0.637);
+  font-size: 25px;
+}
+.contact .contact-holder .left {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.contact .contact-holder .left .contact-title {
+  font-size: 30px;
+  color: rgb(167, 147, 33);
+  padding-left: 30px;
+  padding-top: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.contact .contact-holder .left .booking-holder .name input {
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
+  min-width: 400px;
+  height: 80px;
+  padding-left: 10px;
+}
+.contact .contact-holder .left .booking-holder .name ::placeholder {
+  font: rgba(255, 255, 255, 0.637);
+}
+.contact .contact-holder .left .booking-holder .email {
+  padding-top: 30px;
+}
+.contact .contact-holder .left .booking-holder .email input {
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
+  min-width: 400px;
+  height: 80px;
+  padding-left: 10px;
+}
+.contact .contact-holder .left .booking-holder .email ::placeholder {
+  font: rgba(255, 255, 255, 0.637);
+}
+.contact .contact-holder .left .booking-holder .number {
+  padding-top: 30px;
+}
+.contact .contact-holder .left .booking-holder .number input {
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
+  min-width: 400px;
+  height: 80px;
+  padding-left: 10px;
+}
+.contact .contact-holder .left .booking-holder .number ::placeholder {
+  font: rgba(255, 255, 255, 0.637);
+}
+.contact .contact-holder .left .booking-holder .address {
+  padding-top: 30px;
+}
+.contact .contact-holder .left .booking-holder .address input {
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(167, 147, 33, 0.9);
+  min-width: 400px;
+  height: 80px;
+  padding-left: 10px;
+}
+.contact .contact-holder .left .booking-holder .address ::placeholder {
+  font: rgba(255, 255, 255, 0.637);
 }
 
 /*# sourceMappingURL=styles.css.map */
